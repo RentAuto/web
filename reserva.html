@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/
+    all.css"
+      integrity="sha384-500BUHEmvpQ+1l₩4y57PTFmhCaXpOML5d60M1M7uH2
+    +nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="reserva.css" />
+  </head>
+      <body>
+<!---tabla de tareas--->
+<div class="active">
+  <div class="navbar">
+     <center>
+      <div class="navbar-derecha-container">
+        <div class="navbar-center">
+          <a href="contactos.html">CONTACTOS</a>
+          
+           <a href="servicio.html">SERVICIO</a>
+          <a href="PPRINCIPAL.html">INICIO</a>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</center>
+
+        <div class="container">
+          <h1>FORMULARIO DE RESERVA</h1>
+          <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="time">Dia de entrega</label>
+            <input type="DATE" id="time" name="time" required />
+
+            <label for="telefono">Telefono:</label>
+            <input type="telefono" id="telefono" name="telefono" required />
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+
+          <div id="summary" style="display: none">
+            <h2>Resumen de Datos</h2>
+            <p><strong>Nombre:</strong> <span id="summaryName"></span></p>
+            <p>
+              <strong>Correo Electrónico:</strong>
+              <span id="summaryEmail"></span>
+            </p>
+            <p>
+              <strong>Telefono:</strong>
+              <span id="summarytelefono"></span>
+            </p>
+
+
+            <p>
+              <strong>Dia de Entrega:</strong> <span id="summaryTime"></span>
+            </p>
+            <p><strong>Mensaje:</strong> <span id="summaryMessage"></span></p>
+          </div>
+        </div>
+        <script src="Resumen.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
