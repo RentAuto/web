@@ -1,0 +1,126 @@
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#summary {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+form {
+  margin-bottom: 20px; /* Espacio debajo del formulario */
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px; /* Espacio entre etiquetas */
+  color: #555; /* Color del texto de las etiquetas */
+}
+
+input,
+textarea {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espacio interno */
+  margin-bottom: 10px; /* Espacio inferior */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 4px; /* Bordes redondeados */
+  box-sizing: border-box; /* Incluir padding y border en el ancho total */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #007bff; /* Color del borde al enfocar */
+  outline: none; /* Eliminar outline al enfocar */
+}
+
+button {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espacio interno */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar por encima */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+}
+
+#summary {
+  border: 1px solid #ccc; /* Borde gris claro */
+  padding: 10px; /* Espacio interno */
+  border-radius: 4px; /* Bordes redondeados */
+  background-color: #f9f9f9; /* Color de fondo claro */
+  margin-top: 20px; /* Espacio superior */
+}
+
+#summary h2 {
+  text-align: center; /* Centrar el texto del título */
+  color: #333; /* Color del texto del título */
+}
+
+#summary p {
+  color: #555; /* Color del texto de los párrafos */
+  margin: 5px 0; /* Márgenes de los párrafos */
+}
+.navbar {
+  background-color: #0e0d0d;
+}
+/* Estilos de los enlaces de la barra de navegación */
+.navbar a {
+  float: inline-end;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+/* Cambia el color de los enlaces al pasar el ratón */
+.navbar a:hover {
+  background-color: #0e0d0d;
+  color: rgb(168, 8, 8);
+}
+
+/* Estilos para centrar los enlaces en la barra de navegación */
+.navbar-center {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* Centra la barra de navegación */
+.navbar-center-container {
+  margin: 0 auto;
+  width: max-content;
+}
